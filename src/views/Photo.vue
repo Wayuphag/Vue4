@@ -31,7 +31,7 @@ export default {
         },
      PrevImg(){
             this.ImgIndex--
-            if(this.ImgIndex == this.ImgLink.length + 1){
+            if(this.ImgIndex == this.ImgLink.length){
                 this.ImgIndex 
             }
         }
